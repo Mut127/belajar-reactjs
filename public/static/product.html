@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product Table</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="bg-gray-100 p-8">
+    <div class="container mx-auto">
+      <h2 class="text-3xl font-bold mb-6 text-center">Product List</h2>
+      <div class="overflow-x-auto">
+        <table class="min-w-full bg-white shadow-md rounded">
+          <thead>
+            <tr>
+              <th
+                class="py-3 px-6 bg-gray-200 text-left text-xs font-medium text-gray-700 uppercase tracking-wider"
+              >
+                Title
+              </th>
+              <th
+                class="py-3 px-6 bg-gray-200 text-left text-xs font-medium text-gray-700 uppercase tracking-wider"
+              >
+                Description
+              </th>
+              <th
+                class="py-3 px-6 bg-gray-200 text-left text-xs font-medium text-gray-700 uppercase tracking-wider"
+              >
+                Price
+              </th>
+              <th
+                class="py-3 px-6 bg-gray-200 text-left text-xs font-medium text-gray-700 uppercase tracking-wider"
+              >
+                Image
+              </th>
+              <th
+                class="py-3 px-6 bg-gray-200 text-left text-xs font-medium text-gray-700 uppercase tracking-wider"
+              >
+                Serial
+              </th>
+              <th
+                class="py-3 px-6 bg-gray-200 text-left text-xs font-medium text-gray-700 uppercase tracking-wider"
+              >
+                Created By
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="bg-gray-50">
+              <td class="py-4 px-6 border-b border-gray-200 text-sm">
+                Product 1
+              </td>
+              <td class="py-4 px-6 border-b border-gray-200 text-sm">
+                This is a great product.
+              </td>
+              <td class="py-4 px-6 border-b border-gray-200 text-sm">$29.99</td>
+              <td class="py-4 px-6 border-b border-gray-200 text-sm">
+                <img
+                  src="https://via.placeholder.com/50"
+                  alt="Product Image"
+                  class="w-12 h-12"
+                />
+              </td>
+              <td class="py-4 px-6 border-b border-gray-200 text-sm">
+                123456789
+              </td>
+              <td class="py-4 px-6 border-b border-gray-200 text-sm">
+                John Doe
+              </td>
+            </tr>
+            <tr>
+              <td class="py-4 px-6 border-b border-gray-200 text-sm">
+                Product 2
+              </td>
+              <td class="py-4 px-6 border-b border-gray-200 text-sm">
+                Another amazing product.
+              </td>
+              <td class="py-4 px-6 border-b border-gray-200 text-sm">$39.99</td>
+              <td class="py-4 px-6 border-b border-gray-200 text-sm">
+                <img
+                  src="https://via.placeholder.com/50"
+                  alt="Product Image"
+                  class="w-12 h-12"
+                />
+              </td>
+              <td class="py-4 px-6 border-b border-gray-200 text-sm">
+                987654321
+              </td>
+              <td class="py-4 px-6 border-b border-gray-200 text-sm">
+                Jane Smith
+              </td>
+            </tr>
+            <!-- Add more rows as needed -->
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </body>
+</html>

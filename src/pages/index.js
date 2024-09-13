@@ -113,3 +113,11 @@ export default function Home() {
     </div>
   );
 }
+export async function getServerSideProps() {
+  return {
+    redirect: {
+      destination: '/login',
+      permanent: false,  // Jika `true`, redirect akan dianggap permanen (301)
+    },
+  };
+}
