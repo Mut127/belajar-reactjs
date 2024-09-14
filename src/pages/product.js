@@ -1,4 +1,5 @@
 import React from 'react';
+import productImage1 from '../image/1.jpeg';
 
 export default function ProductList() {
   // Data produk
@@ -7,7 +8,7 @@ export default function ProductList() {
       title: 'Product 1',
       description: 'This is a great product.',
       price: '$29.99',
-      image: 'https://via.placeholder.com/50',
+      image: 'https://id.pinterest.com/pin/4574037116392736/',
       serial: '123456789',
       createdBy: 'John Doe',
     },

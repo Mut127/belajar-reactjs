@@ -17,13 +17,13 @@ const REGISTRATION_INPUT = [
     required: true,
     type: "password",
   },
-  {
-    id: "confirmation-password",
-    label: "Confirmation Password",
-    required: true,
-    type: "password",
-    placeholder: "Confirm your password",
-  },
+  // {
+  //   id: "confirmation_password",
+  //   label: "Confirmation Password",
+  //   required: true,
+  //   type: "password",
+  //   placeholder: "Confirm your password",
+  // },
 ];
 
 const LOGIN_INPUT = [
